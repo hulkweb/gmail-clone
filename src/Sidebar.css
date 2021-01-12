@@ -1,0 +1,80 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+  padding: 10px;
+  flex: 0.2;
+}
+.sidebar_top{
+    padding: 15px 20px;
+
+}
+.sidebar_top button:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.19);  
+}
+.sidebar_top button{
+  
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.19);
+    padding: 10px 20px;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.sidebar_top button .MuiSvgIcon-root{
+   font-weight: 700;
+   font-size: 47px;
+   color: red;
+}
+.sidebar_middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   border-bottom: 1px solid #b9b0b0;
+   padding-bottom: 20px;
+}
+
+.sidebar_option{
+    display: flex;
+    flex-direction: row;
+    padding: auto 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #fff;
+}
+/* .sidebar_option{
+    display: flex;
+    flex-direction: row;
+    
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(247, 210, 210);
+    color: red;
+} */
+.sidebar_option:nth-child(1):hover{
+    background-color: rgb(247, 210, 210);}
+.sidebar_option:hover{
+    background-color: #f3f3f3;
+}
+.sidebar_option .message{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 0px 15px;
+    justify-content: space-between;
+    font-weight: 500;
+
+}.sidebar_option svg{
+    font-size: 23px;
+   color: grey;
+    padding: 10px 20px;
+}
+.sidebar_option .message span{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.sidebar_bottom h3{
+    padding: 0px 20px;
+    font-weight: 500;
+}
+.sidebar_bottom{
+    border-bottom: 1px solid gray;
+}

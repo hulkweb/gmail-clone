@@ -1,0 +1,91 @@
+.EmailBody{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   flex: 0.8;
+
+}
+.EmailListSetting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+ border-bottom: 1px solid gray;
+}
+.EmailListSettingLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.EmailListSettingRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.email_subject{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+ border-bottom: 1px solid gray;
+}
+.email_subject_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.email_subject h3{
+
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 0px 10px;
+
+}
+.email_body{
+    display: flex;
+    flex-direction: column;
+
+}
+.email_body_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+ border-bottom: 1px solid gray;
+}
+.sender_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .email_body .header_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px 10px;
+    
+}
+.email_text{
+    flex: 1;
+    background-color: rgb(219, 210, 210);
+    
+    padding: 10px;
+}
+.sender_info h3{
+    margin-top: 10px ;
+    padding: 0px 10px;
+}
+.email_body .header_right span{
+    padding:  10px;
+    font-weight: 500;
+}
+.email_body  .header_right svg{
+    color: gray;
+    padding: 10px 10px;
+    margin: 0px;
+    border-radius: 30px;
+}
+.email_body.header_right svg:hover{
+    background-color: rgb(233, 232, 232);
+}

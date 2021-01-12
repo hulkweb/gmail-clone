@@ -1,0 +1,90 @@
+.EmailList{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.EmailListSetting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+ border-bottom: 1px solid gray;
+}
+.EmailListSettingLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.EmailListSettingRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.EmailSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 10px -6px rgba(0,0,0,0.75);
+    
+}
+.EmailSection >.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  
+    width: 250px;
+}
+.EmailSection >.section:nth-child(1){
+    color: red;
+    border-bottom: 2px solid red;
+}
+.EmailSection >.section:hover{
+    background-color: rgb(231, 228, 228);
+}
+.EmailSection >.section svg{
+    margin: 10px;
+}
+.EmailSection >.section  span{
+    font-size: 19px;
+    margin-top: 10px;
+}
+.emailRows
+{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.SingleEmailRow:hover{
+    background-color: rgb(245, 240, 240);
+}
+.SingleEmailRow{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+   
+  
+}
+.SingleEmailRow svg{color: gray;}
+.emailRowOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    width: 100px;
+}
+.description  span{
+    font-size: 18px;
+    margin-top: 10px;
+ 
+    font-weight: 400;
+    
+}
+.SingleEmailRow .description{
+ flex: 1;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+}

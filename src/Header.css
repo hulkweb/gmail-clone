@@ -1,0 +1,77 @@
+.Header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 10px -6px rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+}
+.header_left{
+    padding: 10px;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex: 0.3;
+}
+.header_left svg{
+    font-size: 35px;
+    margin-right: 20px;
+}
+.header_left .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header_left .logo span{
+    font-size: 26px;
+    padding: 10px;
+    padding-top: 0px;
+    font-weight: 500;
+    color: grey;
+}
+.header_left img{
+height: 30px;
+
+}
+.header_center{
+    flex: 1;
+}
+.header_center>form{
+   
+    padding: 10px;
+    background-color: rgb(235, 236, 236);
+    border-radius: 10px;
+    height: 29px;
+    margin-left: 10px;
+    display: flex;
+}
+.header_center>form>svg{
+ height: 27px;
+}
+.header_center>form>input{
+    border: none !important; 
+    background: transparent;
+    font-size: 14px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.header_right{
+    flex: 0.4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.header_right svg:hover{
+   
+}
+.header_right svg{
+    font-size: 30px;
+}

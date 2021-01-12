@@ -1,0 +1,10 @@
+.App{display: flex;
+flex-direction: column;
+padding: 0px;}
+.app_body{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  
+}
